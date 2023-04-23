@@ -1,0 +1,191 @@
+{
+    "ecran1":
+            {
+                "réf": 1,
+                "nom": "asus1",
+                "catégorie":"Gaming",
+                "url":"ecrans/Asus1.jpg",
+                "prix": 320,
+                "quantité": 5
+            },
+    "ecran2":
+            {
+                "réf": 2,
+                "nom": "Msi",
+                "catégorie":"Pro",
+                "url":"ecrans/Msi.jpg",
+                "prix": 379,
+                "quantité": 0
+            },
+    "ecran3":
+            {
+                "réf": 3,
+                "nom": "Asus4",
+                "catégorie":"Pro",
+                "url":"ecrans/Asus4.jpg",
+                "prix": 379,
+                "quantité": 7
+            },
+    "ecran4":
+            {
+                "réf": 4,
+                "nom": "Hp4",
+                "catégorie":"Pro",
+                "url":"ecrans/Hp4.jpg",
+                "prix": 419,
+                "quantité": 24
+            },
+    "ecran5":
+            {
+                "réf": 5,
+                "nom": "Dell5",
+                "catégorie":"Pro",
+                "url":"ecrans/dell5.jpg",
+                "prix": 449,
+                "quantité": 0
+            },
+    "ecran6":
+            {
+                "réf": 6,
+                "nom": "Lenovo5",
+                "catégorie":"Pro",
+                "url":"ecrans/Asus5.jpg",
+                "prix": 449,
+                "quantité": 5
+            },
+    "ecran7":
+            {
+                "réf": 7,
+                "nom": "Samsung",
+                "catégorie":"Pro",
+                "url":"ecrans/samsung.jpg",
+                "prix": 479,
+                "quantité": 16
+            },
+    "ecran8":
+            {
+                "réf": 8,
+                "nom": "Asus3",
+                "catégorie":"Gaming",
+                "url":"ecrans/Asus3.jpg",
+                "prix": 550,
+                "quantité": 5
+            },
+    "ecran9":
+            {
+                "réf": 9,
+                "nom": "Dell1",
+                "catégorie":"Gaming",
+                "url":"ecrans/Dell1.jpg",
+                "prix": 589,
+                "quantité": 74
+            },
+    "ecran10":
+            {
+                "réf": 10,
+                "nom": "Hp1",
+                "catégorie":"Gaming",
+                "url":"ecrans/Hp1.jpg",
+                "prix": 320,
+                "quantité": 0
+            },        
+    "ecran11":
+            {
+                "réf": 11,
+                "nom": "Hp2",
+                "catégorie":"Gaming",
+                "url":"ecrans/Hp2.jpg",
+                "prix": 320,
+                "quantité": 50
+            },
+    "ecran12":
+            {
+                "réf": 12,
+                "nom": "Lenovo2",
+                "catégorie":"Gaming",
+                "url":"ecrans/Lenovo2.jpg",
+                "prix": 320,
+                "quantité": 5
+            },
+    "ecran13":
+            {
+                "réf": 13,
+                "nom": "BenQ",
+                "catégorie":"Gaming",
+                "url":"ecrans/BenQ.jpg",
+                "prix": 320,
+                "quantité": 0
+            },  
+    "ecran14":
+            {
+                "réf": 14,
+                "nom": "Lenovo3",
+                "catégorie":"Gaming",
+                "url":"ecrans/Lenovo3.jpg",
+                "prix": 320,
+                "quantité": 14
+            },
+    "ecran15":
+            {
+                "réf": 15,
+                "nom": "Dell4",
+                "catégorie":"Gaming",
+                "url":"ecrans/Dell4.jpg",
+                "prix": 320,
+                "quantité": 13
+            },
+    "ecran16":
+            {
+                "réf": 16,
+                "nom": "Dell2",
+                "catégorie":"Gaming",
+                "url":"ecrans/Dell2.jpg",
+                "prix": 320,
+                "quantité": 19
+            },
+    "ecran17":
+            {
+                "réf": 17,
+                "nom": "Asus2",
+                "catégorie":"Gaming",
+                "url":"ecrans/Asus2.jpg",
+                "prix": 320,
+                "quantité": 0
+            },
+    "ecran18":
+            {
+                "réf": 18,
+                "nom": "Dell3",
+                "catégorie":"Gaming",
+                "url":"ecrans/Asus1.jpg",
+                "prix": 320,
+                "quantité": 0
+            },        
+    "ecran19":
+            {
+                "réf": 19,
+                "nom": "Lenovo4",
+                "catégorie":"Gaming",
+                "url":"ecrans/Lenovo4.jpg",
+                "prix": 320,
+                "quantité": 5
+            },
+    "ecran20":
+            {
+                "réf": 20,
+                "nom": "Hp3",
+                "catégorie":"Gaming",
+                "url":"ecrans/Hp3.jpg",
+                "prix": 320,
+                "quantité": 16
+            },
+    "ecran21":
+            {
+                "réf": 21,
+                "nom": "Lenovo1",
+                "catégorie":"Gaming",
+                "url":"ecrans/Lenovo1.jpg",
+                "prix": 320,
+                "quantité": 0
+            }       
+}

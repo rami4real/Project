@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecran</title>
+    <link rel="stylesheet" href="Ecran.css">
+    
+</head>
+<header>
+    <h1>TechnoBandana Shop</h1>
+    <menu>
+        <li><a href="pcPortable.html" id="men1" class="men">Pc Portable</a></li>
+        <li><a href="pcBureau.html"  id="men2">Pc De Bureau</a></li>
+        <li><a href="Ecran.html"  id="men3">Ecran</a></li>
+        <li><a href="SmartPhone.html"  id="men4">Smartphone</a></li>
+        <li><a href="Accessoires.html"  id="men5">Accessoires</a></li>
+    </menu>
+</header>
+<body>
+    
+    <nav>
+        <h3>Categories</h3>
+        <input type="radio" id="all" name="Categories"  value="all" onclick="filtration()" checked > <label for="all" id="all" >All<span id="nball"></span></label>
+        <br>
+        <input type="radio" value="Gaming" name="Categories" id="Gaming" onclick="filtration()"> <label  for="Gaming" id="gam">Ecran Gaming <span id="nbgam"></span></label>
+        <br>
+        <input type="radio" value="Pro" name="Categories" id="Pro" onclick="filtration()"> <label  for="Pro" id="pro">Ecran professionels<span id="nbpro"></span></label>
+        <h3>Fabricant</h3>
+        <input type="checkbox" value="Lenovo" name="Fabricant" onclick="filtration()"  id="Lenovo"> <label  for="Lenovo" id="lenovo">Lenovo<span id="nblenovo"></span></label>
+        <br>
+        <input type="checkbox" value="Asus" name="Fabricant" onclick="filtration()" id="Asus"> <label for="Asus" id="asus">Asus<span id="nbasus"></span></label>
+        <br>
+        <input type="checkbox" value="BenQ" name="Fabricant" onclick="filtration()"  id="BenQ"> <label for="BenQ" id="benq">BenQ<span id="nbbenq"></span></label>
+        <br>
+        <input type="checkbox" value="Dell" name="Fabricant" onclick="filtration()" id="Dell"><label for="Dell" id="dell"> Dell<span id="nbdell"></span></label>
+        <br>
+        <input type="checkbox" value="Hp" name="Fabricant" onclick="filtration()" id="Hp"> <label for="Hp" id="hp">Hp<span id="nbhp"></span></label>
+        <br>
+        <input type="checkbox" value="Msi" name="Fabricant" onclick="filtration()" id="Msi"> <label for="Msi" id="msi">Msi<span id="nbmsi"></span></label>
+        <br>
+        <input type="checkbox" value="Samsung" name="Fabricant"  onclick="filtration()" id="Samsung"> <label for="Samsung" id="samsung">Samsung<span id="nbsam"></span></label>
+        <h3>Promotion</h3>
+        <input type="checkbox" value="Prmo" id="Prmo"onclick="filtration()" > <label for="Promotion" >En Promotion<span id="nbpromo"></span></label>
+        
+    </nav>
+    <div id="Screens">
+
+            <Div class="all Asus Gaming"><a href="screens.html/Ecran1.html" target="blank" ><img src="Ecrans/Asus1.jpg" width="150px" height="200px"> <br> Ecran Gaming ASUS VP248QG 24" <br> FULL HD 75Hz <br> </a> <span class="prix">320,000DT</span> <br><span id="ecran1"></span> <p></p> <br>  <button  id="eecran1"  onclick="window.open('buy.html','_blank');"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button></Div>
+            <Div class="all Msi Pro"><br><a href="screens.html/Ecran2.html" target="blank" ><img src="Ecrans/Msi.jpg" width="150px" height="200px"> <br> ECRAN MSI PRO MP242 23.8" FULL HD 75HZ <br></a> <span class="prix">379,000DT</span> <br><span id="ecran2"></span><br> <br><br> <button id="eecran2" onclick="window.open('buy.html','_blank');"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button></Div>
+            <Div class="all Asus Pro"><br><a href="screens.html/Ecran3.html" target="blank" ><img src="Ecrans/Asus4.jpg" width="150px" height="200px"> <br> ECRAN ASUS VP228DE 21.5" FULL HD 60HZ <br></a> <span class="prix">379,000DT</span> <br><span id="ecran3"></span> <br>  <br>  <button onclick="window.open('buy.html','_blank');" id="eecran3"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button> </Div>
+
+            
+           
+            <Div class="all Hp Pro"><a href="screens.html/Ecran4.html" target="blank" ><img src="Ecrans/Hp4.jpg" width="150px" height="200px"> <br> ECRAN HP V20 19.5" HD</a> <br> <span class="prix">419,000DT</span> <br><span id="ecran4"></span> <br>  <button onclick="window.open('buy.html','_blank');" id="eecran4"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button> </Div>
+            <Div class="all Dell Pro"><a href="screens.html/Ecran5.html" target="blank" ><img src="Ecrans/dell5.jpg" width="150px" height="200px"> <br>ECRAN DELL SE2222H 21.5" FULL HD 60HZ<br> </a><span class="prix">449,000DT</span> <br><span id="ecran5"></span> <br>  <button onclick="window.open('buy.html','_blank');" id="eecran5"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button> </Div>
+            <Div class="all Lenovo Pro"><a href="screens.html/Ecran6.html" target="blank" ><img src="Ecrans/lenovo5.jpg" width="150px" height="200px"> <br> ECRAN LENOVO C22-20 21.5" FULL HD 75HZ <br></a> <span class="prix">449,000DT</span> <br><span id="ecran6"></span><br>  <button onclick="window.open('buy.html','_blank');" id="eecran6"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button></Div>
+
+            <Div class="all Samsung Pro"><a href="screens.html/Ecran7.html" target="blank" ><img src="Ecrans/samsung.jpg" width="150px" height="200px"> <br> ECRAN SAMSUNG LC24F390FH 24" FULL HD INCURVÉ<br> </a><span class="prix">479,000DT</span> <br><span id="ecran7"></span> <br>  <button onclick="window.open('buy.html','_blank');" id="eecran7"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button> </Div>
+            <Div class="all Asus Gaming"><a href="screens.html/Ecran8.html" target="blank" ><img src="Ecrans/Asus3.jpg" width="150px" height="200px"> <br> Ecran Gaming ASUS ROG STRIX XG27WQ 27" Incurvé 165 Hz <br> </a><span class="prix">550,000DT</span> <br><span id="ecran8"></span><br>  <button onclick="window.open('buy.html','_blank');" id="eecran8"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button></Div>
+            <Div class="all Dell Gaming"><a href="screens.html/Ecran9.html" target="blank" ><img src="Ecrans/Dell1.jpg" width="150px" height="200px"> <br> Ecran Gamer DELL 23.8" FULL HD <br> </a><span class="prix">589,000DT</span> <br><span id="ecran9"></span> <br>  <button onclick="window.open('buy.html','_blank');" id="eecran9"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button> </Div>
+            
+            <Div class="all Hp Gaming"><a href="screens.html/Ecran10.html" target="blank" ><img src="Ecrans/Hp1.jpg" width="150px" height="200px"> <br> Ecran Gaming HP 27m 27 FULL HD <br></a> <span class="prix">619,000DT</span> <br><span id="ecran10"></span><br>  <button onclick="window.open('buy.html','_blank');" id="eecran10"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button></Div>
+            <Div class="all Hp Gaming"><a href="screens.html/Ecran11.html" target="blank" ><img src="Ecrans/Hp2.jpg" width="150px" height="200px"> <br>Ecran Gaming HP 24x 23.8" FULL HD 144Hz<br></a> <span class="prix">669,000DT</span> <br><span id="ecran11"></span> <br>  <button onclick="window.open('buy.html','_blank');" id="eecran11"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button> </Div>
+            <Div class="all Lenovo Gaming"><a href="screens.html/Ecran12.html" target="blank" ><img src="Ecrans/Lenovo2.jpg" width="150px" height="200px"> <br> Ecran Gaming LENOVO G25-10 24.5" FULL HD 144Hz <br></a> <span class="prix">699,000DT</span> <br><span id="ecran12"></span><br>  <button onclick="window.open('buy.html','_blank');" id="eecran12"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button></Div>
+
+            <Div class="all BenQ Gaming"><a href="screens.html/Ecran13.html" target="blank" ><img src="Ecrans/BenQ.jpg" width="150px" height="200px"> <br> Ecran BENQ ZOWIE XL2411P 24" Incurvé 144 Hz <br></a> <span class="prix">699,000DT</span> <br><span id="ecran13"></span><br>  <button onclick="window.open('buy.html','_blank');" id="eecran13"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button></Div>
+            <Div class="all Lenovo Gaming"><a href="screens.html/Ecran14.html" target="blank" ><img src="Ecrans/Lenovo3.jpg" width="150px" height="200px"> <br> Ecran Gaming LENOVO G27-20 27" FULL HD 144 Hz <br></a> <span class="prix">800,000DT</span> <br><span id="ecran14"></span> <br>  <button onclick="window.open('buy.html','_blank');" id="eecran14"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button> </Div>
+            <Div class="all Dell Gaming"><a href="screens.html/Ecran15.html" target="blank" ><img src="Ecrans/Dell4.jpg" width="150px" height="200px"> <br> Ecran Gaming DELL S2721DGFA 27" QHD 144 Hz<br> </a><span class="prix">850,000DT</span> <br><span id="ecran15"></span> <br>  <button onclick="window.open('buy.html','_blank');" id="eecran15"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button> </Div>
+            
+            <Div class="all Dell Gaming"><a href="screens.html/Ecran16.html" target="blank" ><img src="Ecrans/Dell2.jpg" width="150px" height="200px"> <br> Ecran Gaming DELL S2422HG 23.6" Incurvé 165 Hz<br></a> <span class="prix">869,000DT</span> <br><span id="ecran16"></span> <br>  <button onclick="window.open('buy.html','_blank');" id="eecran16"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button> </Div>
+            <Div class="all Asus Gaming"><a href="screens.html/Ecran17.html" target="blank" ><img src="Ecrans/Asus2.jpg" width="150px" height="200px"> <br> Ecran Gaming ASUS TUF VG27VQ 27" Incurvé 165 Hz<br> </a><span class="prix">915,000DT</span> <br><span id="ecran17"></span> <br>  <button onclick="window.open('buy.html','_blank');" id="eecran17"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button> </Div>    
+            <Div class="all Dell Gaming"><a href="screens.html/Ecran18.html" target="blank" ><img src="Ecrans/Dell3.jpg" width="150px" height="200px"> <br> Ecran Gaming DELL S2721HGF 27" Incurvé 144Hz <br> </a><span class="prix">999,000DT</span> <br><span id="ecran18"></span><br>  <button onclick="window.open('buy.html','_blank');" id="eecran18"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button></Div>
+
+            
+            <Div class="all Lenovo Gaming Prmo"><a href="screens.html/Ecran19.html" target="blank" ><img src="Ecrans/Lenovo4.jpg" width="150px" height="200px"> <br> Ecran Gaming LENOVO G34w-10 34" Incurvé 144 Hz <br></a> <span class="prix">1 239,000DT</span>  <br> <s style="color: gray;">1 539,000DT</s> <br><span id="ecran19"></span> <br>  <button onclick="window.open('buy.html','_blank');" id="eecran19"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button> </Div>
+            <Div class="all Hp Gaming"><a href="screens.html/Ecran20.html" target="blank" ><img src="Ecrans/Hp3.jpg" width="150px" height="200px"> <br> Ecran HP OMEN X25F 25 FULL HD <br> </a><span class="prix">1 259,000DT</span> <br><span id="ecran20"></span> <br>  <button onclick="window.open('buy.html','_blank');" id="eecran20"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button> </Div>
+            <Div class="all Dell Gaming"><a href="screens.html/Ecran21.html" target="blank" ><img src="Ecrans/Lenovo1.jpg" width="150px" height="200px"> <br> ECRAN GAMING LENOVO G24-10 23.6" FULL HD 144HZ
+                <br> </a><span class="prix">1 299,000DT</span> <br><span id="ecran21"></span> <br>  <button onclick="window.open('buy.html','_blank');" id="eecran21"><img src="photos/chariot.png" height="20px" style="position:absolute;transform: translate(-2px);" ><label style="margin-left: 20px;">Ajouter Au Panier</label> </button> </Div>
+  
+
+            
+    </div>
+    
+
+
+
+    <script src="ecran.js"></script>
+</body>
+<footer >
+    © CopyRights TechnoBandana Shop 2022 <span id="foot">Contact us <a href="https://www.Facebook.com" target="blank"><img src="photos/fb.png" width="20px" height="20px" style="transform: translate(0px,5px);"></a>&nbsp;<a href="https://www.instagram.com/" target="blank"><img src="photos/insta.jpg" width="20px" height="20px" style="transform: translate(0px,5px);"></a><a href="https://www.linkedin.com" target="blank"><img src="photos/in.png" width="30px" height="20px" style="transform: translate(0px,5px);"></a></span>
+    
+</footer>
+</html>

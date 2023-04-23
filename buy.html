@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paiement</title>
+	<link rel="stylesheet" type="text/css" href="buy.css">
+</head>
+<body>
+<form >
+      <fieldset>
+          <legend>Votre identité</legend>
+          <ol>
+            <li>
+              <label>Nom</label>
+              <input class="input" type="text" placeholder="Nom et Prénom" required/>
+            </li>
+            <li>
+              <label>Email</label>
+              <input class="input1"  type="email" placeholder="exemple@domaine" required/>
+            </li>
+            <li>
+              <label>Téléphone</label>
+              <input  class="input2" type="tel" placeholder="Ex:20202020"required/>
+            </li>
+          </ol>
+        </fieldset>
+
+        <fieldset>
+          <legend>Adresse de livrasion</legend>
+          <ol>
+            <li>
+              <label>Adresse</label>
+              <textarea rows="4" cols="40" placeholder="ex:Rue...." required></textarea>
+            </li>
+            <li>
+              <label>Code postal</label>
+              <input type="text" />
+            </li>
+            <li>
+              <label>Ville</label>
+              <select>
+                <option>Tunis</option>
+                <option>Sfax</option>
+                <option>Sousse</option>
+                <option>Gabes</option>
+              </select>
+            </li>
+            <li>
+            	<label>Date d'achat  :</label>
+            	<input type="date" />
+            </li>
+          </ol>
+        </fieldset>
+
+        <fieldset>
+          <legend>Informations de Carte Bancaire</legend>
+          <ol>
+            <li>
+              <legend>Type de carte bancaire</legend>
+
+              <input type="radio" name="1" value="5" />
+
+              <label for="1"><img src="photos/card.png" /> </label>
+
+              <input type="radio" name="2" value="6" />
+              <label for="2"><img src="photos/visa.png" /></label>
+            </li>
+            <li>
+              <label>N°de carte</label>
+              <input type="number" required />
+            </li>
+          </ol>
+        </fieldset>
+        <fieldset>
+          <input type="submit" value="J'ACHÉTE!" id="submit" />
+          <input type="reset"  id="reset">
+        </fieldset>
+      </fieldset>
+    </form>
+</body>
+</html>
